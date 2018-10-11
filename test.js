@@ -27,3 +27,11 @@ it("should return 10", () => {
 it("should return 4", () => {
 	expect( Add("-1,-2,-3,4")).toBe(4);
 });
+
+it("should return 8", () => {
+	expect( Add("1,1002,3,4")).toBe(8);
+});
+
+it("should return 0", () => {
+	expect( Add("-5")).toBe(0);
+});
