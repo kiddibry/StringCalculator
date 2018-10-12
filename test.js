@@ -35,3 +35,7 @@ it("should return 8", () => {
 it("should return 0", () => {
 	expect( Add("-5")).toBe(0);
 });
+
+it("should return 10", () => {
+	expect( Add("//;\n1;9")).toBe(10);
+});
